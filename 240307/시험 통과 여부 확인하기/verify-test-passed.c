@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if (a > 80) {
+    if (a >= 80) {
         printf("pass");
     }
     else {
