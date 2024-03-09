@@ -8,6 +8,8 @@ int main() {
     if (a<5) {
         printf("%d tiny",result);
     }
-    printf("%d",result);
+    else {
+        printf("%d",result);
+    }
     return 0;
 }
