@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&a);
     result = pow(a,2);
     if (a<5) {
-        printf("%d tiny",result);
+        printf("%d\ntiny",result);
     }
     else {
         printf("%d",result);
