@@ -6,8 +6,11 @@ int main() {
     if (a>=3000) {
         printf("book");
     }
-    else {
+    else if( a>=1000) {
         printf("mask");
+    }
+    else {
+        printf("no");
     }
     return 0;
 }
