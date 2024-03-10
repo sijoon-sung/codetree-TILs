@@ -7,13 +7,13 @@ int main() {
         printf("even\n");
     }
     else {
-        printf("odd");
+        printf("odd\n");
     }
     if (b%2==0) {
         printf("even\n");
     }
     else {
-        printf("odd");
+        printf("odd\n");
     }
     return 0;
 }
