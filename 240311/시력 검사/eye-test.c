@@ -6,7 +6,7 @@ int main() {
     if (a>=1.0 && b >=1.0) {
         printf("High");
     }
-    else if (a>=0.5 && a>=0.5) {
+    else if (a>=0.5 && b>=0.5) {
         printf("Middle");
     }
     else {
