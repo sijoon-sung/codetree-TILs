@@ -27,7 +27,7 @@ int main() {
         } else if (strcmp(command, "size") == 0) {
             printf("%d\n", size);
         } else if (strcmp(command, "empty") == 0) {
-            printf("%d\n", size == 0 ? 1 : 0);
+            printf("%d\n", size == 0 ? 1 : 0); // 이거 삼항연산자로 계산하기
         } else if (strcmp(command, "top") == 0) {
             if (size == 0) {
                 printf("-1\n");
